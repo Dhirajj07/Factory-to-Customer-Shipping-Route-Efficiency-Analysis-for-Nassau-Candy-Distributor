@@ -19,5 +19,6 @@ This project is a data-driven logistics dashboard developed using Streamlit to a
 - Pandas  
 - Matplotlib / Seaborn / Plotly  
 
+## Distribution of Shipping Lead Time
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ed939495-f1c1-4fe6-83d1-45716b5be55a" />
+![Uploading Lead_Time_Dist.png…]()
