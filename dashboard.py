@@ -78,7 +78,7 @@ df['State/Province'] = df['State/Province'].str.strip().str.upper()
 #     unsafe_allow_html=True)
 
 
-logo_path = os.path.join(base_dir, "assets", "logo.png")
+logo_path = os.path.join(base_dir, "logo.png")
 
 with open(logo_path, "rb") as f:
     logo_base64 = base64.b64encode(f.read()).decode()
