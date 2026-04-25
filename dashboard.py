@@ -14,17 +14,19 @@ warnings.filterwarnings("ignore")
 st.set_page_config(page_title= "Nassau Candy Distributor", page_icon= "🍭", layout= "wide")
 st.markdown("""
 <style>
-:root {
-    --primary-color: #7B2CBF;
+/* FORCE DARK + PURPLE THEME */
+html, body, [class*="css"]  {
+    background-color: #0E1117 !important;
+    color: white !important;
 }
 
-/* Sidebar background */
+/* SIDEBAR */
 section[data-testid="stSidebar"] {
-    background: #1F1B2E !important;
+    background-color: #1F1B2E !important;
 }
 
-/* Remove orange highlights */
-button, .stSelectbox, .stSlider {
+/* REMOVE ORANGE ACCENTS */
+* {
     accent-color: #7B2CBF !important;
 }
 </style>
