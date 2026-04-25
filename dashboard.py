@@ -12,26 +12,6 @@ warnings.filterwarnings("ignore")
 ## Set the page config1uration
 
 st.set_page_config(page_title= "Nassau Candy Distributor", page_icon= "🍭", layout= "wide")
-st.markdown("""
-<style>
-/* FORCE DARK + PURPLE THEME */
-html, body, [class*="css"]  {
-    background-color: #0E1117 !important;
-    color: white !important;
-}
-
-/* SIDEBAR */
-section[data-testid="stSidebar"] {
-    background-color: #1F1B2E !important;
-}
-
-/* REMOVE ORANGE ACCENTS */
-* {
-    accent-color: #7B2CBF !important;
-}
-</style>
-""", unsafe_allow_html=True)
-
 st.title("🚚 Factory-to-Customer Shipping Route Efficiency Analysis for Nassau Candy Distributor")
 st.markdown('<style>div.block-container{padding-top: 2rem;}</style>', unsafe_allow_html=True)
 
